@@ -1,0 +1,92 @@
+<!--doctype html-->
+<html>
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE-edge">
+<meta name="viewport" content="width=device-width, intial-scale=1.0">
+<title>Personal Website</title>
+<link href='https://fonts.googleapis.com/css?family=Poppins' rel='stylesheet'>
+	<!--style----->
+	<style>
+		body{
+			font-family:poppins;
+		}
+	</style>
+      <!--JQUery-------------------->
+<script type="text/javascript" src="js/JQuery.js"></script>
+	<script type="text/javascript">
+	$(document).ready(function(){
+		$('.toggle').click(function(){
+			$('.toggle').toggleClass('active')
+			$('nav').toggleClass('active')
+		})
+	})
+	</script>
+    
+    
+  
+    <link href="design.css" rel="stylesheet" type="text/css"> 
+	<script src="https://kit.fontawesome.com/c8e4d183c2.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <section>
+	<!--navigation------------------------->
+	<nav>
+	<!--logo-->
+	<a href="home.html" class="header">PORTFOLIO</a>
+	<!--menu-->
+	<ul>
+	<li><a href="#" class="active">Home</a></li>
+	<li><a href="#about">About</a></li>
+	<li><a href="#contact">Contact us</a></li>
+	<li><a href="gallery.html">My Gallery</a></li>
+	</ul>
+	<!--bars--------------->
+	<div class="toggle"></div>
+	
+	</nav>
+  </section>
+    <div>
+    	<div class="text-container">S
+			<p>Hello,</p>
+		    <p>I&#8217;M PRITHEE</p>
+			<p> Designer <br>& Developer</p>
+			<button class="hire-btn">Hire me</button>
+			<button class="down-cv"><a href="resume.html">Download CV</a></button>
+		</div>
+        <div>
+            <img alt="model" class="model" src="images/background.jpg"> 
+        </div>
+        
+ 
+    
+    
+    </div>
+    <!--text----------------------->
+	<!--model---------------------->
+	
+    <!--About me---------------------->
+    <div class="about-container">
+	<!--img-->
+		<img src="images/IMG20210320202250.jpg"/>
+	<!--about-me-text-->
+          
+		<div class="about-text" id="about">
+		<p>ABOUT ME</p>
+		<p>Devolper & Designer</p>
+		<p>Hello,My name is Prithee Das. I am a Devolper and also a Designer.</p>
+		<p>I specialize in creating beautiful, usable, professional websites and designs. I am just a beginner. I design and develop applications. I also worked under a company for 2 Months.My weapons of choice are Photoshop and Illustrator for building websites or applications for creating graphics things, Figma for layouts, and code them using their specified language. For websites, I generally use HTML, CSS, and Javascript. For android, I use Android(java) or Flutter.I am a keen user of illustrations and use them whenever I have the chance to add any to my project. I am practicing my digital drawing. I love to travel and explore new places. I am a foodie also.
+           </p>
+		<button>Hire Me</button>
+		<button><a href="resume.html" style="color: white">Download CV</a></button>
+		</div>
+	</div>
+    
+	<div class="contact-me" id="contact">
+		<h3 style="color: white">E-MAil: das.prithvi007@gmail.com</h3>
+        <h3  style="color: white">Phone Number:- 7687018828</h3>
+		<button>Contact me</button>
+	</div>
+  
+</body>
+</html>
