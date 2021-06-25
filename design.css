@@ -317,6 +317,9 @@ button:active{
 		width: 150px;
 		height: 33px;
 	}
+	.about-container img{
+	height:550px;
+	}
 	footer p:nth-child(2){
 		width: 90%;
 	}
